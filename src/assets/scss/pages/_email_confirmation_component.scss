@@ -1,0 +1,26 @@
+.email-confirmation-container{
+  font-family: 'Poppins';
+  font-style: normal;
+  background-color: $main-theme-primary-color;
+  height: 70px;
+  position: fixed;
+  top: 85px;
+  width: 100%;
+  z-index: 2;
+  padding: 12px;
+
+  .top-title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .top-content{
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    a{
+      color: #043ad7;
+    }
+  }
+}
